@@ -1,0 +1,6 @@
+c:\users\teemo\documents\visual studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\bin\Debug\LocalDriveToNetDrive.exe.config
+c:\users\teemo\documents\visual studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\bin\Debug\LocalDriveToNetDrive.exe
+c:\users\teemo\documents\visual studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\bin\Debug\LocalDriveToNetDrive.pdb
+c:\users\teemo\documents\visual studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\obj\Debug\LocalDriveToNetDrive.exe
+c:\users\teemo\documents\visual studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\obj\Debug\LocalDriveToNetDrive.pdb
+C:\Users\Teemo\Documents\Visual Studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\obj\Debug\LocalDriveToNetDrive.csprojResolveAssemblyReference.cache
