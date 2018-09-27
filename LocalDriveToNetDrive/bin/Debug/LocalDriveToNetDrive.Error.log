@@ -178,3 +178,20 @@
    at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
    at System.IO.Directory.CreateDirectory(String path)
    at LocalDriveToNetDrive.Program.Main(String[] args) in C:\Users\Teemo\Documents\Visual Studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\Program.cs:line 60
+27/09/2018 12:10:19 p.m.: System.IO.DirectoryNotFoundException: Could not find a part of the path 'Z:\SMS\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at LocalDriveToNetDrive.Program.Main(String[] args) in C:\Users\Teemo\Documents\Visual Studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\Program.cs:line 60
+27/09/2018 12:28:46 p.m.: System.InvalidOperationException: The connection was not closed. The connection's current state is open.
+   at System.Data.ProviderBase.DbConnectionInternal.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at System.Data.ProviderBase.DbConnectionInternal.OpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory)
+   at System.Data.Odbc.OdbcConnection.Open()
+   at LocalDriveToNetDrive.Program.Main(String[] args) in C:\Users\Teemo\Documents\Visual Studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\Program.cs:line 51
+27/09/2018 12:30:45 p.m.: System.IO.DirectoryNotFoundException: Could not find a part of the path 'Z:\SMS\'.
+   at System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   at System.IO.Directory.InternalCreateDirectory(String fullPath, String path, Object dirSecurityObj, Boolean checkHost)
+   at System.IO.Directory.InternalCreateDirectoryHelper(String path, Boolean checkHost)
+   at System.IO.Directory.CreateDirectory(String path)
+   at LocalDriveToNetDrive.Program.Main(String[] args) in C:\Users\Teemo\Documents\Visual Studio 2015\Projects\LocalDriveToNetDrive\LocalDriveToNetDrive\Program.cs:line 62

@@ -47,7 +47,9 @@ namespace LocalDriveToNetDrive
             while (true)
             {
                 try
-                { 
+                {
+                    if(connSms.State == System.Data.ConnectionState.Closed)
+                        connSms.Open();
                     string sql = "select system_value from system where system_code = 'FILEFOLDER'";
                     OdbcCommand commSms = new OdbcCommand(sql, connSms);
                     OdbcDataReader dbrd = commSms.ExecuteReader();
